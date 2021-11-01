@@ -50,11 +50,7 @@ function TPOApp() {
     {
       name: "All Students",
       nav: "all-students",
-    },
-    {
-      name: "Unnamed",
-      nav: "Unnamed",
-    },
+    }
   ];
 
   return (

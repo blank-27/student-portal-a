@@ -7,13 +7,6 @@ class Dashboard extends React.Component {
         {/*  Page content */}
         <div className="dashboardTpo__section">
           <main className="dashboardTpo__container flex-grow">
-            <div className="dashboardTpo__links">
-              <ul>
-                <li>Create New Announcement</li>
-                <li>Register New Company</li>
-                <li>Add New Job</li>
-              </ul>
-            </div>
             <div className="dashboardTpo__cunt">
               <div className="dashboardTpo__notif">
                 <h3 className="notificationTpo__heading">Notifications</h3>

@@ -38,7 +38,7 @@ function Header(props) {
 
             {/* Site navigation */}
             <nav className="flex flex-grow">
-              <ul className="flex flex-grow justify-end flex-wrap items-center">
+              <ul className="flex flex-grow justify-end items-center">
                 <li>
                   <Link
                     to="/login"
@@ -97,7 +97,7 @@ function Header(props) {
 
             {/* Site navigation */}
             <nav className="flex flex-grow">
-              <ul className="flex flex-grow justify-end flex-wrap items-center">
+              <ul className="flex flex-grow justify-end  items-center">
                 {Links}
                 <li
                   className="btn-sm text-gray-200 bg-gray-900 hover:bg-gray-800 ml-3"

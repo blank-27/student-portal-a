@@ -39,7 +39,7 @@ export default function Login({ setToken }) {
       <main className="flex-grow">
         <section className="bg-gradient-to-b from-gray-100 to-white">
           <div className="max-w-6xl mx-auto px-4 sm:px-6">
-            <div className="pt-5 pb-12 md:pt-20 md:pb-20">
+            <div className="pt-0 pb-12 md:pt-20 md:pb-20">
               {/* Page header */}
               <div
                 className="header-logo"
@@ -112,7 +112,7 @@ export default function Login({ setToken }) {
                 </form>
               </div>
 
-              <div className="max-w-sm mx-auto my-10 text-center pb-12 md:pb-20">
+              <div className="max-w-sm mx-auto my-1 text-center pb-12 md:pb-20">
                 <h5>Brought to you by</h5>
                 <h4 className="h4">Automation Cell - DARG IIITL</h4>
               </div>

@@ -33,7 +33,10 @@ const applyForJob = async (id) => {
         Authorization:
           "Bearer " + JSON.parse(localStorage.getItem("token")).token,
       },
-    }).then((val) => val.json());
+    }).then((val) => {
+      alert("Successfully Applied!!");
+      val.json();
+    });
     // console.log(data);
     return data;
   } catch (err) {

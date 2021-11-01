@@ -188,14 +188,16 @@
 .dashboardTpo__cunt > div {
   border-radius: 3px;
   margin: 0.4rem;
-  background-color: #91bfff;
+  flex: 1;
+  background-color: #1a5f99;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 .dashboardTpo__cunt > div h3 {
   font-size: 1.6rem;
   font-weight: 600;
   letter-spacing: 1px;
-  padding: 0.4rem;
+  padding: 0.5rem;
+  color: white;
 }
 .dashboardTpo__cunt > div ul {
   margin: 0 auto;
@@ -212,12 +214,12 @@
   background-color: #e2e2e2;
   box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
 }
-.dashboardTpo__notif {
+/* .dashboardTpo__notif {
   flex: 3;
 }
 .dashboardTpo__approve {
   flex: 4;
-}
+} */
 
 .allStudents__section {
   width: 100%;

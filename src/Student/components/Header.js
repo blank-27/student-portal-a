@@ -37,7 +37,7 @@ function Header(props) {
 
             {/* Site navigation */}
             <nav className="flex flex-grow">
-              <ul className="flex flex-grow justify-end flex-wrap items-center">
+              <ul className="flex flex-grow justify-end items-center">
                 <li>
                   <Link
                     to="/login"
@@ -83,7 +83,7 @@ function Header(props) {
 
             {/* Site navigation */}
             <nav className="flex flex-grow">
-              <ul className="flex flex-grow justify-end flex-wrap items-center">
+              <ul className="flex flex-grow justify-end  items-center">
                 <li>
                   <Link
                     to="/all-jobs"
